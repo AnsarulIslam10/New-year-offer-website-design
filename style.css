@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Inter", sans-serif; 
+}
+
+.banner{
+    background-image: linear-gradient(0deg, #ffffff00, #070211), url(images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+.banner-text{
+    width: 632px;
+    height: 484px;
+    margin: auto;
+}
+.banner p{
+    padding-top: 177px;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.section-title{
+    font-size: 72px;
+    line-height: 95px;
+    color: #FFFFFF;
+
+}
+
+/* offer */
+.offers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.offer{
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-top: 70px;
+}
+.offer-description{
+    font-size: 24px;
+    color: #FF0000;
+    margin-top: 48px;
+}
+.offer-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+.offers img{
+    margin-bottom: 120px;
+}
+
+/* banner 2 */
+.banner2{
+    background-image: linear-gradient(270deg, #07021100, #070211), url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner2-text{
+    width: 642px;
+    /* height: 484px; */
+    margin: auto;
+    font-size: 64px;
+}
+.banner2 p{
+    font-size: 18px;
+    color: #ffffffc4;
+    margin-bottom: 32px;
+}
+.section-title{
+    font-size: 72px;
+    line-height: 95px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+.banner2-img img{
+    margin-right: 130px;
+}
+.banner2-text h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 32px;
+}
