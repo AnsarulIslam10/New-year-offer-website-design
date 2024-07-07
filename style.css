@@ -104,3 +104,37 @@ body{
     color: white;
     margin-left: 32px;
 }
+
+/* address */
+
+.address{
+    width: 1320px;
+    height: 482px;
+    background-image: linear-gradient(180deg, #ff00001a, #ff000000 );
+    border-radius: 16px;
+    margin: 120px auto;
+}
+.address-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px ;
+}
+.address-text h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.address-text h2 span{
+    color: #FF0000;
+}
+.btn{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    background: #FF0000;
+    border: none;
+    border-radius: 8px;
+    margin-top: 48px;
+}
